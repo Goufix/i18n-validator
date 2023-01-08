@@ -86,6 +86,8 @@ function getFilesFromDirectory(path: string) {
 
       return acc;
     }, undefined);
+
+    verifiedFileNames.push(file.fileName);
   }
 }
 
